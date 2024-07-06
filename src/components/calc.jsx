@@ -34,22 +34,22 @@ function Calculator() {
 
   async function handleResultAdd()  {
     let op = 'add';
-    const response = await axios.post('http://localhost:2000/calculate', {num1,num2, op});
+    const response = await axios.post('https://learncurvebackend.onrender.com/calculate', {num1,num2, op});
     setResult(response.data)
 }
 async function handleResultSub()  {
   let op = 'sub';
-  const response = await axios.post('http://localhost:2000/calculate', {num1,num2, op});
+  const response = await axios.post('https://learncurvebackend.onrender.com/calculate', {num1,num2, op});
   setResult(response.data)
 }
 async function handleResultMul()  {
   let op = 'mul';
-  const response = await axios.post('http://localhost:2000/calculate', {num1,num2, op});
+  const response = await axios.post('https://learncurvebackend.onrender.com/calculate', {num1,num2, op});
   setResult(response.data)
 }
 async function handleResultDiv()  {
   let op = 'div';
-  const response = await axios.post('http://localhost:2000/calculate', {num1,num2, op});
+  const response = await axios.post('https://learncurvebackend.onrender.com/calculate', {num1,num2, op});
   setResult(response.data)
 }
   return (

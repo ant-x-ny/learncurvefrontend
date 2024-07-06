@@ -1,0 +1,80 @@
+.BodyHome{
+    margin: 0px;
+    margin-top: -105px;
+    padding: 0px;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    font-family: monospace;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    animation-play-state: paused;
+    background-image:  url('Res/bg1.jpg');
+}
+/* #l1{
+    background-image: url('Res/bgparallax/native/1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#l2{
+    background-image: url('Res/bgparallax/native/2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#l3{
+    background-image: url('Res/bgparallax/native/3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#l4{
+    background-image: url('Res/bgparallax/native/4.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#l5{
+    background-image: url('Res/bgparallax/native/5.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#l6{
+    background-image: url('Res/bgparallax/native/6.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+
+@keyframes  koop {
+    20%{
+        background-position: left;
+    }
+    40%{
+        background-position: center;
+    }
+    60%{
+        background-position: right;
+    }
+    80%{
+        background-position: center;
+    }
+    100%{
+        background-position: left;
+    }
+}
+#cmb{
+    transition: 0.5s;
+    background-color: #495464;
+    font-family: monospace;
+    font-size: 20px;
+    border-style: none; 
+    border-left: 5px solid white;
+    color: white;
+    height: 80px;
+    width: 200px;
+    border-radius: 5px;
+}
+#cmb:hover{
+    transition: 0.5s;
+    background-color: #0d99a7;
+    width: 210px;
+    border-radius: 10px;
+} 

@@ -21,7 +21,7 @@ a:hover{
     width: 100%;
     align-items: center;
     border-radius: 6px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .nav-buttons:hover{
     transition: 0.2s;

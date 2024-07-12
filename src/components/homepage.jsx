@@ -19,18 +19,15 @@ function HomePage(){
         style={{
           margin: '20px',
           fontFamily: "monospace",
-          fontSize: '52px',
+          fontSize: '70px',
           paddingTop: '5px',
           paddingLeft: '5px'
         }}
       >
         Hi i am Antony :)
       </h2>
-      <p style={{ fontSize: '16px', paddingLeft: '20px', color:'black', fontFamily:'monospace' }}>
-        welcome to my webpage... Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Consectetur fuga omnis cum maxime dolores cumque rerum
-        sed beatae aperiam quos eum deleniti quisquam, assumenda voluptatum,
-        sunt facere libero voluptate ullam!
+      <p style={{ fontSize: '22px', paddingLeft: '20px', color:'black', fontFamily:'monospace' }}>
+        welcome to my webpage...
       </p>
     </div>
     <div

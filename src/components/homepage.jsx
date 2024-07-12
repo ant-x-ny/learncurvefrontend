@@ -26,7 +26,7 @@ function HomePage(){
       >
         Hi i am Antony :)
       </h2>
-      <p style={{ fontSize: '22px', paddingLeft: '20px', color:'black', fontFamily:'monospace' }}>
+      <p style={{ fontSize: '22px', paddingLeft: '65px', color:'black', fontFamily:'monospace' }}>
         welcome to my webpage...
       </p>
     </div>
